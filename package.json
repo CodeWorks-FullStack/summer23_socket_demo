@@ -1,0 +1,13 @@
+
+  {
+    "name": "socket-demo",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd socket-demo.client && npm i",
+      "setup:server": "cd socket-demo && npm i",
+      "start": "node socket-demo/index.js"
+    }
+  }
+  
